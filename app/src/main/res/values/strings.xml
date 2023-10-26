@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Operaciones</string>
+    <string name="ingrese_n_mero">Ingrese Número</string>
+    <string name="ingrese_n_mero2">Ingrese Número</string>
+    <string name="sumar">SUMAR</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="dividir">DIVIDIR</string>
+    <string name="restar">RESTAR</string>
+    <string name="textview">TextView</string>
+    <string name="numero1">numero1</string>
+    <string name="numero2">numero2</string>
+</resources>

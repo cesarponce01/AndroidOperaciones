@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="189dp"
+        android:hint="numero1"
+        android:inputType="@android:string/ok" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/numero1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="185dp"
+        android:hint="numero2"
+        android:inputType="@android:string/cut" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/numero2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="166dp"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="121dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/btnSuma"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="159dp"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnResta"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="142dp"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="151dp"
+        android:text="Dividir" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDivision"/>
+</RelativeLayout>
