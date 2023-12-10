@@ -5,6 +5,9 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.operaciones.R
+/*
+Operaciones báscias de Android
+ */
 
 class MainActivity : AppCompatActivity() {
 
